@@ -1,56 +1,97 @@
 🌐 [Português (BR)](README.pt_BR.md) | [Español](README.es.md)
 
-# Soc Ops
+<div align="center">
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+# 🎯 Soc Ops
 
-🎮 **[Play the Game](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/)** • 📚 **[View Lab Guide](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/)**
+### Social Bingo — break the ice, make connections, win the room.
 
----
+*Find people who match the prompts. Get 5 in a row. Repeat.*
 
-## 📚 Lab Guide
+<br/>
 
-| Part | Title |
-|------|-------|
-| [**00**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=00-overview) | Overview & Checklist |
-| [**01**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=01-setup) | Setup & Context Engineering |
-| [**02**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=02-design) | Design-First Frontend |
-| [**03**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=03-quiz-master) | Custom Quiz Master |
-| [**04**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=04-multi-agent) | Multi-Agent Development |
+[![Play the Game](https://img.shields.io/badge/▶%20Play%20the%20Game-blue?style=for-the-badge)](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/)
+[![View Lab Guide](https://img.shields.io/badge/📚%20Lab%20Guide-gray?style=for-the-badge)](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/)
 
-> 📝 Lab guides are also available in the [`workshop/`](workshop/) folder for offline reading.
+</div>
 
 ---
 
-## Prerequisites
+## ✨ What is Soc Ops?
 
-- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or higher
+Soc Ops turns the awkward silence of a conference room or team offsite into something genuinely fun. Each player gets a randomized 5×5 bingo board packed with icebreaker prompts — *"Has given a talk at a meetup"*, *"Speaks more than two languages"*, *"Has deployed on a Friday"* — and the challenge is to find real people in the room who match them.
 
-## Open in GitHub Codespaces (optional)
+It's a **Blazor WebAssembly** app that runs entirely in the browser, no server required.
 
-After creating your own repo from this template:
+---
 
-1. Open your repo on GitHub
-2. Click **Code** → **Codespaces** → **Create codespace on main**
-3. Wait for the devcontainer to finish setup
-4. From the repository root, run:
-   ```bash
-   cd SocOps
-   dotnet run
-   ```
+## 🚀 Quick Start
 
-## Run
+> **Requires:** [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or higher
 
 ```bash
+# Clone your copy, then:
 cd SocOps
 dotnet run
 ```
 
-## Build
+Open the URL shown in the terminal and start playing instantly.
+
+### ☁️ Zero-install: Open in GitHub Codespaces
+
+1. Click **Code → Codespaces → Create codespace on main**
+2. Wait for the devcontainer to finish setting up (~1 min)
+3. Run `dotnet run --project SocOps/SocOps.csproj` in the terminal
+4. Click **Open in Browser** when prompted
+
+---
+
+## 🛠️ Build
 
 ```bash
 cd SocOps
 dotnet build
 ```
 
-Deploys automatically to GitHub Pages on push to `main`.
+Every push to `main` deploys automatically to **GitHub Pages**.
+
+---
+
+## 🧪 Lab Guide — Learn While You Build
+
+This repo is also a **hands-on workshop** for GitHub Copilot agent development. Work through the steps below to build, extend, and improve Soc Ops using AI-powered tooling:
+
+| Step | Topic |
+|:----:|-------|
+| [**00**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=00-overview) | 🗺️ Overview & Checklist |
+| [**01**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=01-setup) | ⚙️ Setup & Context Engineering |
+| [**02**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=02-design) | 🎨 Design-First Frontend |
+| [**03**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=03-quiz-master) | 🤖 Custom Quiz Master Agent |
+| [**04**](https://dotnet-presentations.github.io/vscode-github-copilot-agent-lab/docs/step.html?step=04-multi-agent) | 🔗 Multi-Agent Development |
+
+> 📁 Prefer offline? All guides are in the [`workshop/`](workshop/) folder.
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Blazor WebAssembly (.NET 10) |
+| Language | C# |
+| Hosting | GitHub Pages |
+| Dev environment | GitHub Codespaces + devcontainer |
+
+---
+
+## 🤝 Contributing
+
+We'd love your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
+
+---
+
+<div align="center">
+
+Made with ☕ and a healthy fear of awkward silences.
+
+</div>
